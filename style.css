@@ -9,6 +9,7 @@
 	align-items: center;
 	justify-content: space-between;
 }
+
 /* estilos generales */
 section{
 	display: flex;
@@ -22,6 +23,22 @@ h1{
 	font-size: 2.5rem;
 	font-family: 'Rubik Dirt', cursive;
 }
+
+.seccion-oscura{
+	color: white;
+	background-color: #1b1b32;
+}
+
+.seccion-titulo{
+	font-size: 2rem;
+	padding: 15px 0;
+	font-family:'Rubik Dirt', cursive;
+}
+
+.seccion-texto{
+	font-size: 1.2rem;
+}
+
 
 /*Hero*/
 .hero{
@@ -47,6 +64,17 @@ h1{
 	color: #615151;
 }
 
+/*Sobre mi*/
+
+.sobre-mi{
+	height: 500px;
+	padding: 10px;
+}
+
+.sobre-mi .contenedor{
+	max-width: 600px;
+	text-align: center;
+}
 
 
 
